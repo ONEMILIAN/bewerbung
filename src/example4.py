@@ -1,8 +1,4 @@
 state = "on"
-zahl1 = ""
-operator = ""
-zahl2 = ""
-_continue = True
 
 def getResult(eingabe1, eingabe2):
     if eingabeOperator == "*":
