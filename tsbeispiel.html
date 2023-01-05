@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Typescript Beispiel</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="mainContainer">
+				<div id="menu" class="div">
+					<button id="home" class="btn" onclick="window.location.href='index.html'">Home</button>
+					<button id="coding" class="btn" onclick="window.location.href='sprachen.html'">Programmier-Sprachen</button>
+					<button id="concepts" class="btn" onclick="window.location.href='konzepte.html'">Konzepte</button>
+					<button id="examples" class="btn" onclick="window.location.href='beispiele.html'">Beispiele</button>
+					<button id="more" class="btn" onclick="window.location.href='mehr.html'">Mehr</button>
+			</div>
+			<div id="headlineDiv" class="div">
+				<h1 id="headline">Typescript ToDo-Liste</h1>
+			</div>
+			<div id="input" class="div">
+				<input type="text" id="artikelerfasser"/>
+				<button id="senden" class="btn" onclick="submitTodo()">Erfassen</button>
+				<button id="delete" class="btn" onclick="deleteFunc()">Löschen</button>
+			</div>
+			<div id="todoDiv" class="div">
+				<form id="todoList">
+					<ul id="todoItems" class="list"></ul>
+				</form>
+			</div>
+			<div id="todoDatas" class="div">
+				<h2 id="todoDatasTxt" class="text">Entrys: 0</h2>
+			</div>
+		</div>
+		<div id="explanation2Div">
+			<h2 id="explanation2Txt">Als erstes werden Variablen deklariert und deren Typ angegeben, spezifische und primitive Typen werden verwendet.
+				Dann werden die Funktionen initialisiert, mit denen Werte zurückgegeben als auch neu berechnet werden.Zuletzt werden
+				die Funktionen mit den HTML Elementen verbunden damit die Interaktion hergestellt ist.</h2>
+		</div>
+		<script src="dist/example2.js" language="javascript" type="text/javascript"></script>
+	</body>
+</html>
