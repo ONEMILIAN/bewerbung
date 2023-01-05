@@ -1,0 +1,86 @@
+body{
+	background-color : #202020;
+	color : #905030;
+	margin : 0px;
+}
+#headline{
+	text-align : center;
+	font-size : 2cm;
+}
+#headlineDiv{
+	background-color : #101010;
+	border : solid 9px #101010;
+}
+#codingTxtDiv{
+	background-color : #404040;
+}
+#codingTxt{
+	font-size : 2cm;
+}
+#sprachenTxt{
+	border : double 6px #222222;
+}
+#menu{
+	text-align : center;
+	background-color : #000000;
+}
+#introDiv{
+	background-color : #404040;
+	border : double 9px #252525;
+}
+#introTxt{
+	font-size : 30px;
+}
+#intro{
+	font-size : 30px;
+}
+#linksDiv{
+	text-align : center;
+}
+#canvasDiv{
+	display:flex;
+}
+#canvas{
+	background-color : #333333;
+	border : double 6px #444444;
+}
+#erklaerung{
+	font-size : 30px;
+}
+#artikelerfasser{
+	background-color : black;
+	border : double 3px #905030;
+	color : #905030;
+}
+#todoDiv{
+	background-color : #303030;
+}
+#explanation2Div{
+	background-color : #333333;
+	border: double 6px #111111;
+}
+#explanation3Div{
+	background-color : #333333;
+	border: double 6px #111111;
+}
+#explanation4Div{
+	background-color : #333333;
+	border : double 6px #111111;
+}
+.btn{
+	background-color : #000000;
+	color : #907040;
+	border : double 6px #905030;
+	font-size : 20px;
+	border-radius : 5px;
+	cursor : pointer;
+}
+.link{
+	background-color : #303030;
+	border : double 5px #404040;
+	color : #907030;
+	font-size : 1cm;
+}
+.list{
+	font-size : 1cm;
+}
